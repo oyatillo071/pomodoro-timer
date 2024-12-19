@@ -28,7 +28,7 @@ export default function Clock() {
   };
 
   return (
-    <div className="w-52 p-4">
+    <div className="w-52 p-4 items-center justify-center absolute top-1 left-[44%]">
       <p className="text-white">{currentDate}</p>
     </div>
   );
